@@ -1,0 +1,72 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 24px;
+    text-rendering: optimizeLegibility;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex: 1 0 auto;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin: 24px 0 0 0;
+    padding: 18px 0;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+h1{
+    font-size: 64px;
+}
+
+header a:link,
+header a:visited{
+    color: #888888;
+    margin-right: 24px;
+    text-decoration: none;
+    transition: color 0.2s; 
+}
+
+header a:hover,
+header a:active{
+    color: #727070;
+}
+
+.portrait{
+    width: 250px;
+}
+#message1{
+    font-size: 30px;
+    color: #555555;
+}
+#message2{
+    letter-spacing: 1px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px 12px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: #ffffff;
+    padding: 8px 12px;
+}
